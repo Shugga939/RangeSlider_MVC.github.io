@@ -1219,7 +1219,6 @@ var View = /*#__PURE__*/function () {
         that.observer.subscribe(updateValue);
 
         function updateValue(val1, val2) {
-          console.log('s');
           that.first_value = val1;
           that.second_value = val2;
           that.rangeLine.update(that.first_value, that.second_value, that.options);
@@ -1288,7 +1287,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 window.Slider = function (options, element) {
   return new _Controller.default(new _Model.default(options), new _View.default(element));
 };
-},{"./Model.js":"Model.js","./View.js":"View.js","./Controller.js":"Controller.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./Model.js":"Model.js","./View.js":"View.js","./Controller.js":"Controller.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -1316,7 +1315,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61365" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57212" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -1492,5 +1491,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","RangeSlider.js"], null)
+},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","RangeSlider.js"], null)
 //# sourceMappingURL=/RangeSlider.js.map
